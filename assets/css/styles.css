@@ -1,0 +1,66 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body,
+html {
+    background-color: #EEE;
+    height: 100;
+    width: 100%;
+}
+
+.title {
+    border-top: 1px dotted teal;
+    border-bottom: 1px dotted teal;
+}
+
+.title,
+.subtitle {
+    color: teal;
+}
+
+.uk-divider-icon {
+    margin: 15px;
+}
+
+.personal-information {
+    margin-top: -50%;
+    padding-top: 50%;
+    background: teal;
+    color: #FFFFFF;
+}
+
+@media (max-width: 639px) {
+    .personal-information {
+        margin-top: initial;
+        padding-top: initial;
+    }
+}
+
+@media (max-width: 450px) {
+    h3 {
+        font-size: 1em;
+    }
+
+    h4 {
+        font-size: .85em;
+    }
+
+    .uk-width-expand {
+        order: 99;
+        width: initial;
+        flex-basis: initial;
+    }
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.frame {
+    border: 2px #DDD solid;
+}
+
+a.uk-link-text:hover {
+    color: #DDDDDD;
+}
