@@ -7,132 +7,393 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta property="og:title" content="Yo soy Bryan Morales" />
+    <meta property="og:title" content="Bryan Morales" />
+    <meta name="author" content="Bryan Morales">
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.bryandms.github.io" />
-    <meta content="Sitio web personal de Bryan Morales / El desarrollo de software y la música son factores importantes en mi rutina."
+    <meta content="Desarrollador Full Stack Bryan Morales."
         property="og:description">
     <meta name="keywords" content="bryan morales, bryandms, developer, software" />
 
-    <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit.min.css" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
-    <!-- UIkit JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130633817-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-130633817-1');
+    </script>
+
 </head>
 
 <body>
-    <div class="uk-container">
-        <div class="uk-card uk-card-default uk-card-body uk-width-1-1 uk-text-center uk-margin-medium-top uk-margin-medium-bottom uk-padding-remove-bottom">
-            <section class="uk-hidden@s personal-information uk-padding-small">
-                <img class="uk-border-circle frame uk-animation-fade uk-margin-medium-top" src="./assets/images/photo.jpg" width="200" height="200"
-                    alt="Bryan Morales">
-                <h2 class="text-white uk-margin-remove-bottom">Bryan Morales</h2>
-                <small>Software Developer</small>
-                <hr class="uk-divider-icon">
-                <p class="uk-padding-small uk-padding-remove-top">Mi interés por las computadoras inició desde muy pequeño cuando cursaba la escuela, en donde di mis primeros
-                    pasos con una computadora interactuando con
-                    <a class="uk-link-text" href="http://www.micromundos.com/" target="a_blank">Micromundos</a>.
-                </p>
-                <p class="uk-padding-small uk-padding-remove-top">Más adelante en la secundaria empecé a desarrollar mis primeras páginas web estáticas con HTML y CSS, en
-                    donde terminé de convencerme de que esto era lo que me gustaba.</p>
-                <p class="uk-padding-small uk-padding-remove-top">Actualmente soy estudiante de la carrera Bachillerato en Informática Empresarial de la Universidad de Costa
-                    Rica, en donde he aprendido distintas tecnologías que he aplicado para brindar soluciones a diferentes
-                    problemas.
-                </p>
-            </section>
-            <div uk-grid>
-                <!-- Experience and Projects -->
-                <section class="uk-width-expand uk-margin-large-top uk-padding-large uk-text-right uk-animation-fade">
-                    <!-- Experience -->
-                    <h3 class="uk-text-uppercase title uk-text-center">Experiencia</h3>
-                    <h4 class="subtitle uk-margin-remove-bottom uk-margin-small-top">D&L Sistemas.</h4>
-                    <small>Asistente en Soporte y Mantenimiento de computadoras.</small>
-                    <p>Colaboré en procesos de instalación, montaje, desmontaje y mantenimiento de ordenadores informáticos.</p>
-                    <!-- Projects -->
-                    <h3 class="uk-text-uppercase title uk-text-center">Proyectos</h3>
-                    <h4 class="subtitle uk-margin-remove-bottom uk-margin-small-top">Euclidiana.</h4>
-                    <small>Marzo - 2018.</small>
-                    <p>Euclidiana es una aplicación web que le permite a los estudiantes del Recinto de Paraíso y Turrialba,
-                        conocer algunas de sus características por medio del algoritmo de distancias euclidianas.</p>
-                    <h4 class="subtitle uk-margin-remove-bottom uk-margin-small-top">Albergue Cortijo el Quetzal.</h4>
-                    <small>Marzo 2017 - Octubre 2017.</small>
-                    <p>Realicé una aplicación web como parte de mi Trabajo Comunal Universitario, que le permite a esta pequeña
-                        empresa gestionar sus reservas y su información.</p>
-                    <h4 class="subtitle uk-margin-remove-bottom uk-margin-small-top">CELQ.</h4>
-                    <small>Marzo 2017 - Julio 2017.</small>
-                    <p>CELQ es un proyecto web que brinda una mejor gestión de eventos, información, noticias y otras características
-                        del Colegio Elías Leiva Quirós.</p>
-                </section>
-                <!-- Personal Information -->
-                <div class="uk-width-1-4@s uk-width-1-5@m uk-padding-remove uk-visible@s">
-                    <img class="uk-border-circle frame uk-animation-fade" src="./assets/images/photo.jpg" width="200" height="200" alt="Bryan Morales">
-                    <section class="personal-information">
-                        <h2 class="text-white uk-margin-remove-bottom">Bryan Morales</h2>
-                        <small>Software Developer</small>
-                        <hr class="uk-divider-icon">
-                        <p class="uk-padding-small uk-padding-remove-top">Mi interés por las computadoras inició desde muy pequeño cuando cursaba la escuela, en donde di mis
-                            primeros pasos con una computadora interactuando con
-                            <a class="uk-link-text" href="http://www.micromundos.com/" target="a_blank">Micromundos</a>.
-                        </p>
-                        <p class="uk-padding-small uk-padding-remove-top">Más adelante en la secundaria empecé a desarrollar mis primeras páginas web estáticas con HTML y
-                            CSS, en donde terminé de convencerme de que esto era lo que me gustaba.</p>
-                        <p class="uk-padding-small uk-padding-remove-top">Actualmente soy estudiante de la carrera Bachillerato en Informática Empresarial de la Universidad
-                            de Costa Rica, en donde he aprendido distintas tecnologías que he aplicado para brindar soluciones
-                            a diferentes problemas.</p>
-                        <div class="uk-padding-small" uk-grid>
-                            <a class="uk-width-1-2 uk-link-text" href="https://github.com/bryandms" target="a_blank">
-                                <span uk-icon="icon: github; ratio: 2"></span>
-                            </a>
-                            <a class="uk-width-1-2 uk-link-text" href="https://www.linkedin.com/in/bryan-morales-sánchez-523982162" target="a_blank">
-                                <span uk-icon="icon: linkedin; ratio: 2"></span>
-                            </a>
-                        </div>
-                        <small class="uk-margin-remove">Desarrollado con
-                            <span class="uk-margin-small-bottom" uk-icon="heart"></span> y
-                            <a class="uk-link-text" href="https://getuikit.com/" target="a_blank">UIKit</a>.</small>
-                    </section>
-                </div>
-                <!-- Education, Skills and Hobbies -->
-                <section class="uk-width-expand uk-margin-large-top uk-padding-large uk-text-left uk-animation-fade">
-                    <h3 class="uk-text-uppercase title uk-text-center">Educación</h3>
-                    <h4 class="subtitle uk-margin-remove-bottom uk-margin-small-top">Bach. Informática Empresarial.</h4>
-                    <small>2014 - Actual.</small>
-                    <p>Actualmente me encuentro cursando los últimos cursos de la carrera.</p>
-                    <h4 class="subtitle uk-margin-remove-bottom uk-margin-small-top">Bach. Educación Media.</h4>
-                    <small>2009 - 2013.</small>
-                    <p>En el curso de tecnología elegí informática, en donde aprendí a realizar páginas web estáticas creando
-                        los estilos y animaciones de los diferentes componentes.</p>
-                    <h3 class="uk-text-uppercase title">Habilidades</h3>
-                    <p>Git, GitHub, HTML5, CSS3, Bootstrap, UIKit, Java, Javascript, PostgreSQL, MySQL, MSSQL,
-                        MongoDB, PHP (Laravel), RESTful Web Services, Graphql, Linux, MVC, SCRUM.</p>
-                    <h3 class="uk-text-uppercase title">Hobbies</h3>
-                    <p>Cuando no estoy frente a una computadora me gusta practicar algunas de las siguientes actividades:</p>
-                    <ul class="uk-list uk-list-bullet">
-                        <li>Tocar guitarra y componer canciones.</li>
-                        <li>Andar en bicicleta.</li>
-                        <li>Jugar fútbol.</li>
-                    </ul>
-                </section>
-            </div>
-            <section class="uk-hidden@s personal-information uk-padding-small">
-                <div class="uk-padding-small" uk-grid>
-                    <a class="uk-width-1-2 uk-link-text" href="https://github.com/bryandms" target="a_blank">
-                        <span uk-icon="icon: github; ratio: 2"></span>
-                    </a>
-                    <a class="uk-width-1-2 uk-link-text" href="https://www.linkedin.com/in/bryan-morales-sánchez-523982162" target="a_blank">
-                        <span uk-icon="icon: linkedin; ratio: 2"></span>
-                    </a>
-                </div>
-                <p class="uk-margin-remove">Desarrollado con
-                    <span uk-icon="heart"></span> y
-                    <a class="uk-link-text" href="https://getuikit.com/" target="a_blank">UIKit</a>.</p>
-            </section>
-        </div>
+    <!-- Sidebar -->
+    <div class="ui sidebar menu large compact container icon labeled vertical">
+        <a class="item" href="#about">Acerca</a>
+        <a class="item" href="#skills">Habilidades</a>
+        <a class="item" href="#portfolio">Portafolio</a>
+        <a class="item" href="#contact">Contacto</a>
     </div>
+
+    <!-- Content -->
+    <div class="pusher">
+
+        <!-- Menu -->
+        <div class="ui container">
+            <div class="ui secondary top large pointing menu border-0">
+                <div class="left item">
+                    <a class="toc item">
+                        <i class="sidebar icon"></i>
+                    </a>
+                </div>
+                <div class="right item">
+                    <a class="item" href="#about">Acerca</a>
+                    <a class="item" href="#skills">Habilidades</a>
+                    <a class="item" href="#portfolio">Portafolio</a>
+                    <a class="item" href="#contact">Contacto</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <header class="ui text container">
+            <h1 class="ui header centered header-text">Desarrollador Full Stack</h1>
+            <h2 class="ui header centered header-text sub-header-text">
+                Me gusta brindar soluciones a las necesidades de los demás, por esta
+                razón me apasiona lo que hago.
+            </h2>
+            <img class="ui centered medium image" src="./assets/images/bryan.png">
+        </header>
+
+        <section class="ui segment padded center aligned inverted py-3 mb-3">
+            <h2 class="ui header centered header-text sub-header-text text-light">"Si lo puedes imaginar,
+                lo puedes lograr". <br><small>- Albert Einstein</small></h2>
+        </section>
+
+        <!-- About -->
+        <section class="ui segment padded center aligned py-3" id="about">
+            <div class="ui text container pb-3">
+                <h2 class="ui horizontal divider header header-text pb-1">Acerca de mi</h2>
+
+                <p>Mi interés por las computadoras inició desde muy pequeño cuando cursaba la escuela,
+                    en donde di mis primeros pasos con una computadora interactuando con Micromundos.</p>
+                <p>Más adelante en la secundaria empecé a desarrollar mis primeras páginas web estáticas
+                    con HTML y CSS, en donde terminé de convencerme de que esto era lo que me gustaba.</p>
+                <p>Actualmente soy estudiante de la carrera Bachillerato en Informática Empresarial de la
+                    Universidad de Costa Rica, en donde he aprendido distintas tecnologías que he aplicado
+                    para brindar soluciones a diferentes problemas.</p>
+                <p>Me gusta poder ayudar a los demás a través de la programación, por esta razón
+                    es que me apasiona lo que hago. Siempre estoy abierto a sugerencias y nuevos desafíos, ya
+                    que estos me ayudan a adquirir nuevos conocimientos y a crecer profesionalmente.</p>
+                <p>Otras de las actividades que disfruto hacer son tocar guitarra, salir en
+                    bicileta, salir a correr y compartir con mis amigos y mi famila.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="ui segment padded center aligned py-3" id="skills" style="background: #edeeef;">
+            <div class="ui container py-3">
+                <h2 class="ui horizontal divider header header-text pb-1">Habilidades</h2>
+
+                <!-- Front-end -->
+                <h3 class="ui header pb-1">Front-end</h3>
+                <div class="ui horizontal list">
+                    <div class="item">
+                        <img class="ui mini image" src="./assets/images/skills/html5.png">
+                        <div class="content">
+                            <div class="ui sub header">HTML5</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                            <img class="ui mini image" src="./assets/images/skills/css3.png">
+                        <div class="content">
+                            <div class="ui sub header">CCS3</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                            <img class="ui mini image" src="./assets/images/skills/bootstrap.png">
+                        <div class="content">
+                            <div class="ui sub header">Bootstrap</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                            <img class="ui mini image" src="./assets/images/skills/uikit.png">
+                        <div class="content">
+                            <div class="ui sub header">UIKit</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                            <img class="ui mini image" src="./assets/images/skills/jquery.png">
+                        <div class="content">
+                            <div class="ui sub header">Jquery</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                            <img class="ui mini image" src="./assets/images/skills/react.png">
+                        <div class="content">
+                            <div class="ui sub header">React.js</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                            <img class="ui mini image" src="./assets/images/skills/vue.png">
+                        <div class="content">
+                            <div class="ui sub header">Vue.js</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui divider"></div>
+
+                <!-- Back-end -->
+                <h3 class="ui header pb-1">Back-end</h3>
+                <div class="ui horizontal list">
+                    <div class="item">
+                        <img class="ui mini image" src="./assets/images/skills/php.png">
+                        <div class="content">
+                            <div class="ui sub header">PHP</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                            <img class="ui mini image" src="./assets/images/skills/laravel.png">
+                        <div class="content">
+                            <div class="ui sub header">Laravel</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                            <img class="ui mini image" src="./assets/images/skills/java.png">
+                        <div class="content">
+                            <div class="ui sub header">Java</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                            <img class="ui mini image" src="./assets/images/skills/csharp.png">
+                        <div class="content">
+                            <div class="ui sub header">C#</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                            <img class="ui mini image" src="./assets/images/skills/graphql.png">
+                        <div class="content">
+                            <div class="ui sub header">Graphql</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                            <img class="ui mini image" src="./assets/images/skills/node.png">
+                        <div class="content">
+                            <div class="ui sub header">Node.js</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                            <img class="ui mini image" src="./assets/images/skills/api.png">
+                        <div class="content">
+                            <div class="ui sub header">RESTful</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui divider"></div>
+
+                <!-- Database-engines -->
+                <h3 class="ui header pb-1">Database engines</h3>
+                <div class="ui horizontal list">
+                    <div class="item">
+                        <img class="ui mini image" src="./assets/images/skills/postgreesql.png">
+                        <div class="content">
+                            <div class="ui sub header">PostgreSQL</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                            <img class="ui mini image" src="./assets/images/skills/mysql.png">
+                        <div class="content">
+                            <div class="ui sub header">MySQL</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                            <img class="ui mini image" src="./assets/images/skills/mssql.png">
+                        <div class="content">
+                            <div class="ui sub header">Microsoft SQL Server</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                            <img class="ui mini image" src="./assets/images/skills/mariadb.png">
+                        <div class="content">
+                            <div class="ui sub header">MariaDB</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                            <img class="ui mini image" src="./assets/images/skills/mongodb.png">
+                        <div class="content">
+                            <div class="ui sub header">MongoDB</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui divider"></div>
+
+                <!-- Tools -->
+                <h3 class="ui header pb-1">Herramientas</h3>
+                <div class="ui horizontal list">
+                    <div class="item">
+                        <img class="ui mini image" src="./assets/images/skills/git.png">
+                        <div class="content">
+                            <div class="ui sub header">Git</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                            <img class="ui mini image" src="./assets/images/skills/linux.png">
+                        <div class="content">
+                            <div class="ui sub header">Linux</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                            <img class="ui mini image" src="./assets/images/skills/scrum.png">
+                        <div class="content">
+                            <div class="ui sub header">SCRUM</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section class="ui segment padded center aligned py-3" id="portfolio">
+            <div class="ui container py-3">
+                <h2 class="ui horizontal divider header header-text pb-1">Portafolio</h2>
+
+                <div class="ui two doubling special cards">
+
+                    <div class="card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <h3>Columbogram</h3>
+                                        <p>Chat en tiempo real creado en mi proceso de aprendizaje de Vue.js y Pusher.</p>
+                                        <div class="ui divider"></div>
+                                        <p>PHP - Laravel - MySQL - Vue.js - Vuex - Bootstrap Vue - Pusher</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="./assets/images/portfolio/columbogram.png" alt="Columbogram">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <h3>Euclidiana</h3>
+                                        <p>Aplicación web que le permite a los estudiantes y profesores
+                                            del Recinto de Paraíso y Turrialba, conocer algunas de sus características
+                                            por medio del algoritmo de distancias euclidianas y naive bayes.</p>
+                                        <div class="ui divider"></div>
+                                        <p>PHP - Laravel - MySQL - jQuery - Bootstrap</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="./assets/images/portfolio/euclidiana.png" alt="Euclidiana">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <h3>CELQ</h3>
+                                        <p>Aplicación web que ayuda al Colegio Elías Leiva Quirós a
+                                            gestionar eventos, información, noticias y material didáctico
+                                            para sus estudiantes, encargados y comunidad de Tejar.</p>
+                                        <div class="ui divider"></div>
+                                        <p>SCRUM - PHP - Laravel - MySQL - jQuery - Bootstrap</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="./assets/images/portfolio/celq.png" alt="CELQ">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <h3>Albergue Cortijo el Quetzal</h3>
+                                        <p>Aplicación web desarrollada durante mi Trabajo Comunal Universitario.
+                                            Permite administrar solicitudes de reservas, actividades, servicios
+                                            y otra información del Albergue Cortijo el Quetzal.</p>
+                                        <div class="ui divider"></div>
+                                        <p>SCRUM - PHP - Laravel - MySQL - jQuery - Bootstrap - Vue.js</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="./assets/images/portfolio/albergue.png" alt="Albergue Cortijo el Quetzal">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <h3>Dele Viaje</h3>
+                                        <p><b>API:</b> Utiliza el algoritmo euclidiano para recomendar sitios turísticos basado en los
+                                            criterios de búsqueda del usuario.</p>
+                                        <p>Node.js - Express - GraphQL - PostgreSQL</p>
+                                        <div class="ui divider"></div>
+                                        <p><b>Cliente:</b> Utiliza el api para mostrar los resultados al usuario.</p>
+                                        <p>React - Redux - Rematch - GraphQL</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="./assets/images/portfolio/dele-viaje.png" alt="Dele Viaje">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <footer class="ui segment padded center aligned py-3" id="contact">
+            <div class="ui text container pt-3">
+                <h2 class="ui horizontal divider header header-text pb-1">Contacto</h2>
+
+                <a href="mailto:bryandms95@gmail.com">
+                    <i class="envelope outline icon text-dark"></i>
+                </a>
+                <a href="https://github.com/bryandms" target="_blank">
+                    <i class="github icon brand text-dark"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/bryan-morales-s%C3%A1nchez-523982162/" target="_blank">
+                    <i class="linkedin icon brand text-dark"></i>
+                </a>
+                <a href="https://t.me/bryandms" target="_blank">
+                    <i class="telegram icon brand text-dark"></i>
+                </a>
+            </div>
+
+            <!-- Licenses -->
+            <div class="pt-3">
+                <p>
+                    <i class="creative commons icon" style="font-family: brand-icons !important;"></i>
+                    <span data-tooltip="Icons made by Freepik from www.flaticon.com is licensed by CC 3.0 BY">Freepik, </span>
+                    <span data-tooltip="Icons made by Vitaly Gorbachev from www.flaticon.com is licensed by CC 3.0 BY">Vitaly Gorbachev, </span> y
+                    <span data-tooltip="Icons made by Pixel perfect from www.flaticon.com is licensed by CC 3.0 BY">Pixel perfect.</span>
+                </p>
+                <p>Made with <i class="heart icon"></i> by Bryan Morales</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/semantic.min.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>

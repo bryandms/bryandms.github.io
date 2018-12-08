@@ -1,66 +1,124 @@
+/* Fonts & Icons */
 * {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif !important;
 }
 
-body,
-html {
-    background-color: #EEE;
-    height: 100;
-    width: 100%;
+.icon {
+    font-family: 'Icons' !important;
 }
 
-.title {
-    border-top: 1px dotted teal;
-    border-bottom: 1px dotted teal;
+.brand {
+    font-family: 'brand-icons' !important;
 }
 
-.title,
-.subtitle {
-    color: teal;
+/* Segment */
+.segment {
+    margin: 0 !important;
+    border-radius: 0 !important;
+    border: 0px !important;
 }
 
-.uk-divider-icon {
-    margin: 15px;
+/* Menu & Sidebar */
+.secondary.pointing.menu .toc.item {
+    display: none;
 }
 
-.personal-information {
-    margin-top: -50%;
-    padding-top: 50%;
-    background: teal;
-    color: #FFFFFF;
+.sidebar a.item {
+    font-size: 2rem !important;
 }
 
-@media (max-width: 639px) {
-    .personal-information {
-        margin-top: initial;
-        padding-top: initial;
+@media only screen and (max-width: 767px) {
+
+    .secondary.pointing.menu .item,
+    .secondary.pointing.menu .menu {
+        display: none;
+    }
+
+    .secondary.pointing.menu .toc.item {
+        display: block;
     }
 }
 
-@media (max-width: 450px) {
-    h3 {
-        font-size: 1em;
-    }
+/* Card */
+.card {
+    border: none !important;
+    box-shadow: none !important;
+}
 
-    h4 {
-        font-size: .85em;
-    }
+/* Image */
+.mini {
+    width: 32px !important;
+    height: 32px !important;
+}
 
-    .uk-width-expand {
-        order: 99;
-        width: initial;
-        flex-basis: initial;
+/* Header text */
+h1.header-text {
+    margin-top: 2em !important;
+}
+
+.sub-header-text {
+    font-weight: 100 !important;
+    color: rgba(10, 10, 10, 0.9) !important;
+}
+
+/* Computer */
+@media (min-width: 992px) {
+    h1.header-text {
+        font-size: 3rem !important;
     }
 }
 
-.text-white {
-    color: #FFFFFF;
+/* Tablet */
+@media (max-width: 991px) and (min-width: 768px) {
+    h1.header-text {
+        font-size: 2.5rem !important;
+    }
 }
 
-.frame {
-    border: 2px #DDD solid;
+/* Mobile */
+@media (max-width: 767px) {
+    h1.header-text {
+        font-size: 2rem !important;
+    }
 }
 
-a.uk-link-text:hover {
-    color: #DDDDDD;
+/* Utilities */
+.border-0 {
+    border: 0 !important;
+}
+
+.pt-3,
+.py-3 {
+    padding-top: 3em !important;
+}
+
+.pb-3,
+.py-3 {
+    padding-bottom: 3em !important;
+}
+
+.pb-1 {
+    padding-bottom: 1em !important;
+}
+
+.mt-3,
+.my-3 {
+    margin-top: 3em !important;
+}
+
+.mb-3,
+.my-3 {
+    margin-bottom: 3em !important;
+}
+
+.text-dark {
+    color: rgba(0, 0, 0, .87) !important;
+}
+
+.text-light {
+    color: rgba(255, 255, 255, .87) !important;
+}
+
+.d-block {
+    display: block;
 }
